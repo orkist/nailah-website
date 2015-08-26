@@ -17,12 +17,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    /*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 18px; 
+
 }
 
 .lead {
@@ -34,7 +36,8 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    /*color: #f8f8f8;*/
+    color: #EE0000;
     background: url(../img/nailah-bg.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -53,8 +56,11 @@ h6 {
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
+    /*border-top: 1px solid #f8f8f8;*/
+    border-top: 1px solid #EE0000;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+
+
 }
 
 .intro-message > h3 {
@@ -139,6 +145,7 @@ h6 {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
+
     }
 }
 
@@ -153,6 +160,7 @@ h6 {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+        color: red;
     }
 
     ul.banner-social-buttons > li:last-child {
