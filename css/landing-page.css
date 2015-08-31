@@ -24,12 +24,14 @@ h4,
 h5,
 h6 {
     /*font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive,Helvetica,Aria,sans-serif;
     font-weight: 400;
 }
 
 .topnav {
-    font-size: 18px; 
+    font-size: 30px;
+    font-weight: 400;
+
 }
 
 .lead {
@@ -48,7 +50,10 @@ h6 {
 }
 
 .intro-message {
-    position: relative;
+   position: relative; 
+
+    margin-left: 10px;
+
     padding-top: 20%;
     padding-bottom: 20%;
 }
@@ -144,6 +149,7 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+    color: red;
 }
 
 @media(max-width:1199px) {
@@ -170,6 +176,7 @@ h6 {
 
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
+        color: red;
     }
 }
 
